@@ -14,6 +14,7 @@ const timerFields = {
 
 let userSelectedDate;
 let countdownInterval;
+startButton.disabled = true;
 
 const options = {
   enableTime: true,
